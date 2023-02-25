@@ -1,0 +1,27 @@
+body{
+    height: 1080px; 
+}
+.image-section{
+    /* margin-top: 300px; */
+    margin-bottom: auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+}
+.confirm-img{
+    height: 300px;
+    width: 300px;
+    margin-bottom: 0;
+}
+.text{
+    margin-top: 0;
+    text-align: center;
+    font-size: 45px;
+}
+.thanks-text{
+    margin-top: 0;
+    text-align: center;
+    font-size: 65px;
+    font-family: cursive;
+}

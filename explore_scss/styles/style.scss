@@ -1,0 +1,59 @@
+@use 'variables';
+$primary-color: red;
+
+.dis-flex {
+    display: flex;
+
+    h1 {
+        font-weight: 700;
+        font-size: 50px;
+        color: indianred;
+        border: 2px saddlebrown solid;
+        width: 50%;
+    }
+}
+
+p {
+    background-color: sandybrown;
+    color: $primary-color;
+    padding: 10px;
+    font-size: variables.$large-font;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+
+    li {
+        list-style: none;
+    }
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: green 2px solid;
+    height: 500px;
+
+    .btn {
+        padding: 10px 15px;
+        border: none;
+        border-radius: 10px;
+        background-color: rgba(216, 112, 147, 0.336);
+        color: white;
+        font-weight: 700;
+        font-size: 40px;
+        transition: transform;
+        transition-duration: 1s;
+        transition-delay: 0s;
+        a {
+            text-decoration: none;
+        }
+
+        &:hover {
+            background-color: rgb(216, 112, 147);
+            transform: scale(1.2);
+        }
+    }
+}

@@ -1,0 +1,51 @@
+.dis-flex {
+  display: flex;
+}
+.dis-flex h1 {
+  font-weight: 700;
+  font-size: 50px;
+  color: indianred;
+  border: 2px saddlebrown solid;
+  width: 50%;
+}
+
+p {
+  background-color: sandybrown;
+  color: red;
+  padding: 10px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+ul li {
+  list-style: none;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: green 2px solid;
+  height: 500px;
+}
+.center .btn {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgba(216, 112, 147, 0.336);
+  color: white;
+  font-weight: 700;
+  font-size: 40px;
+  transition: transform;
+  transition-duration: 1s;
+  transition-delay: 0s;
+}
+.center .btn a {
+  text-decoration: none;
+}
+.center .btn:hover {
+  background-color: rgb(216, 112, 147);
+  transform: scale(1.2);
+}/*# sourceMappingURL=style.css.map */
